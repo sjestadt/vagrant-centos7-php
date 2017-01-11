@@ -2,9 +2,9 @@
 # Variables listed here are applicable to all host groups
 
 # Set remi repository: remi-php55, remi-php56 or remi-php70
-php_remi_repo: remi-php70
+php_remi_repo: remi-php56
 
-php_date_timezone: Asia/Tokyo
+php_date_timezone: America/Vancouver
 
 mariadb_slow_query_log_file: /var/log/mariadb/slow.log
 mariadb_general_query_log_file: /var/log/mariadb/general.log
