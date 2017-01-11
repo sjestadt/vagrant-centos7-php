@@ -16,7 +16,7 @@ This project sets up a CentOS 7.1 (64bit) virtual machine to run your PHP projec
 
 ## What's in the Development Environment?
 
-* PHP 7.0 (remi) (or 5.6, 5.5. See [group_vars/all](https://github.com/kenjis/vagrant-centos7-php/blob/master/provisioning/group_vars/all#L4-L5).)
+* PHP 5.6 (remi) (or 7.0, 5.5. See [group_vars/all](https://github.com/sjestadt/vagrant-centos7-php/blob/master/provisioning/group_vars/all#L4-L5).)
   * [Xdebug](http://xdebug.org/docs/)
   * Zend OPcache
   * APCu
@@ -50,7 +50,7 @@ $ ln -s . public
 
 ~~~
 $ cd /path/to/project/
-$ git clone https://github.com/kenjis/vagrant-centos7-php.git
+$ git clone https://github.com/sjestadt/vagrant-centos7-php.git
 $ cd vagrant-centos7-php/
 $ vagrant up
 ~~~
